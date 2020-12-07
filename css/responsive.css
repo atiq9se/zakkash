@@ -1,0 +1,240 @@
+@media(min-width: 1200px) {}
+
+@media(min-width: 992px) and (max-width: 1199px) {}
+
+@media(min-width:768px) and (max-width:991px) {
+    .customnav {
+        background: rgba(0, 0, 0, .8);
+    }
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 80%;
+        transform: translateX(-50%);
+        border-right: none;
+        border-left: none;
+        padding: 26px 40px;
+    }
+    #mynav ul li a {
+        background: #000;
+        color: #fff;
+        padding: 10px 0px;
+        transition: .5s;
+    }
+    #mynav ul li a:hover {
+        color: #00ada7 !important;
+    }
+    .logo {
+        padding: 0px 20px;
+    }
+    #about_part {
+        padding: 40px;
+    }
+    .about_inner1 h3 i {
+        margin: 0 0;
+        margin-left: 30px;
+    }
+    .about_inner1 h3,
+    .about_inner2 h3 {
+        font-size: 20px;
+    }
+    .about_inner1 p,
+    .about_inner2 p {
+        font-size: 14px;
+    }
+    #counter_part {
+        padding: 50px;
+    }
+    .counter_inner p {
+        font-size: 16px;
+    }
+    .team_info {
+        padding: 40px 30px;
+    }
+    .team_info p {
+        padding: 10px 0px 30px 0;
+    }
+    .form_part {
+        margin: 30px;
+    }
+    .footer_icon i {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .customnav {
+        background: rgba(0, 0, 0, .8);
+    }
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 80%;
+        transform: translateX(-50%);
+        border-right: none;
+        border-left: none;
+        padding: 26px 40px;
+    }
+    #mynav ul li a {
+        background: #000;
+        color: #fff;
+        padding: 10px 0px;
+        transition: .5s;
+    }
+    #mynav ul li a:hover {
+        color: #00ada7 !important;
+    }
+    .logo {
+        padding: 0px 20px;
+    }
+    .banner_text h2 {
+        font-size: 35px;
+    }
+    .banner_text p {
+        font-size: 16px;
+    }
+    #about_part {
+        padding: 40px;
+    }
+    .about_inner1 h3 i {
+        margin: 0 0;
+        margin-right: 30px;
+    }
+    .about_inner1 h3,
+    .about_inner2 h3 {
+        font-size: 28px;
+    }
+    .about_inner1 p,
+    .about_inner2 p {
+        font-size: 14px;
+    }
+    .counter_inner {
+        padding-bottom: 50px;
+    }
+    .counter_inner i {
+        margin-bottom: 0px;
+    }
+    .filternav li {
+        padding: 5px 10px;
+    }
+    .form_part {
+        margin: 30px;
+    }
+    .footer_add {
+        padding-top: 40px;
+    }
+    .footer_email {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width:575px) {
+    .customnav {
+        background: rgba(0, 0, 0, .8);
+    }
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 80%;
+        transform: translateX(-50%);
+        border-right: none;
+        border-left: none;
+        padding: 26px 40px;
+    }
+    #mynav ul li a {
+        color: #fff;
+        padding: 10px 10px;
+        transition: .5s;
+    }
+    #mynav ul li a:hover {
+        color: #00ada7 !important;
+    }
+    .banner_text h2 {
+        font-size: 18px;
+        padding-top: 90px;
+    }
+    .banner_text p {
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        line-height: 20px;
+    }
+    .logo {
+        padding: 0px 20px;
+    }
+    .banner_text a {
+        margin: 20px 10px 0 10px;
+    }
+    #banner_part .slick-dots {
+        bottom: 30px;
+    }
+    #about_part {
+        padding: 20px;
+    }
+    .about_inner1 h3 i {
+        margin: 0 0;
+        margin-right: 15px;
+    }
+    .about_inner2 h3 i {
+        margin-right: 15px;
+    }
+    .about_inner1 h3,
+    .about_inner2 h3 {
+        font-size: 20px;
+    }
+    .about_inner1 p,
+    .about_inner2 p {
+        font-size: 14px;
+    }
+    .counter_inner {
+        padding-bottom: 50px;
+    }
+    .counter_inner i {
+        margin-bottom: 0px;
+    }
+    .filternav li {
+        padding: 0px 5px;
+    }
+    .ser_item:hover p {
+        line-height: 18px;
+    }
+    .skill_item {
+        padding: 20px 20px;
+    }
+    .skill_item h2 {
+        font-size: 24px;
+    }
+    .skill_item p {
+        letter-spacing: 0px;
+        padding: 30px 0;
+        line-height: 24px;
+        font-size: 14px;
+    }
+    #service_part {
+        padding: 20px;
+    }
+    .team_info p {
+        line-height: 20px;
+        letter-spacing: 1px;
+        padding: 10px 0px;
+        font-size: 12px;
+    }
+    .form_part {
+        margin: 20px;
+    }
+    #map {
+        height: 300px;
+    }
+    .footer_add {
+        padding-top: 30px;
+    }
+    .footer_email {
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+}
